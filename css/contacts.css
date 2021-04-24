@@ -1,0 +1,13 @@
+.socials {
+    display: flex;
+}
+
+.social-img {
+    float: right;
+    width: 40%;
+    transition: all 0.5s;
+}
+
+.social-img:hover{
+    transform: rotate(180deg);
+}
