@@ -16,8 +16,7 @@ Site published at https://vadimmozeiko.github.io/Portfolio-Project/
 
 -   responsive design
 -   css animations
--   form validations
--   javascript implementation
+-   content render with javascript
 -   hamburger menu
 
 ## Authors
