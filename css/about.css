@@ -8,9 +8,19 @@
     float: left;
 }
 
-
 .photo {
     display: inline-block;
     float: right;
     width: 30%;
+}
+
+.about-btn {
+    animation: none;
+    background-color: var(--main-bg);
+    color: var(--secondary-text);
+    transition: all 0.5s;
+}
+
+.about-btn:hover {
+    background-color: var(--hover);
 }

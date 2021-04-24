@@ -34,7 +34,7 @@
   font-weight: 400;
   margin-top: 40px;
   padding: 10px 30px;
-  background-color: var(--secondary-text);
+  background-color: var(--main-bg);
   color: var(--secondary-text);
   animation-name: buttonFlash;
   animation-duration: 4s;

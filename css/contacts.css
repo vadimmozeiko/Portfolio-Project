@@ -11,3 +11,7 @@
 .social-img:hover{
     transform: rotate(180deg);
 }
+
+.contacts > .main-title {
+    margin-top: 50px;
+}
