@@ -1,0 +1,59 @@
+.hero {
+  position: relative;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.main-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 30%);
+}
+
+.title {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 200;
+  color: var(--secondary-text);
+  padding-bottom: 50px;
+}
+
+.text {
+  line-height: 2;
+  font-size: 16px;
+  color: var(--main-text);
+  padding-bottom: 50px;
+}
+
+.button {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    margin-top: 70px;
+    padding: 10px 30px;
+    background-color: var(--secondary-text);
+    animation-name: buttonFlash;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes buttonFlash {
+   
+    0% {
+        background-color: var(--main-text);
+        color: var(--main-bg);
+    }
+
+    50% {
+        background-color: var(--main-bg);
+        color: var(--secondary-text);
+    }
+
+    100% {
+        background-color: var(--main-text);
+        color: var(--main-bg);
+    }
+
+}
