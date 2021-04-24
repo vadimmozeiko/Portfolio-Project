@@ -18,7 +18,10 @@
 
 .project-box:hover {
     transform: translateY(-4%);
-    border-color: var(--hover);
+    animation-name: border;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .project-title {
@@ -33,4 +36,31 @@
 
 .project-lang {
     color: var(--main-text);
+}
+
+
+@keyframes border {
+    0% {
+        border-right: 2px;
+        border-style: solid;
+        border-right-color: var(--hover);
+    }
+    25% {
+        border-bottom: 2px;
+        border-style: solid;
+        border-bottom-color: var(--hover);
+    }
+    50% {
+        border-left: 2px;
+        border-style: solid;
+        border-left-color: var(--hover);
+    }
+    75%{
+        border-top: 2px;
+        border-style: solid;
+        border-top-color: var(--hover);
+    }
+    100% {
+        border: 2px solid var(--hover);
+    }
 }
