@@ -7,12 +7,13 @@
     display: inline-flex;
     flex-wrap: wrap;
     gap: 40px;
+
 }
 .project-box {
     padding: 20px;
     width: 30%;
     border: 2px solid transparent;
-    transition: all 0.5s;
+    transition: transform 0.5s;
     cursor: pointer;
 }
 
@@ -38,6 +39,10 @@
     color: var(--main-text);
 }
 
+.project-img {
+    width: 80%;
+}
+
 
 @keyframes border {
     0% {
@@ -55,4 +60,63 @@
     100% {
         border: 2px solid var(--hover);
     }
+}
+
+@media only screen and (max-width: 1200px) {
+    .project-title {
+        font-size: 16px;
+      }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .projects-wrapper {
+        display: inline-flex;
+        justify-content: space-between;
+        gap: 0;
+    }
+    .project-box {
+        width: 50%;
+    }
+    .project-title {
+        font-size: 16px;
+      }
+      
+      .project-desc {
+        font-size: 12px;
+      }
+      
+      .project-lang {
+         font-size: 12px;
+      }
+}
+@media only screen and (max-width: 768px) {
+    .project-box {
+        padding: 20px;
+        width: 100%;
+    }
+    .project-title {
+      font-size: 18px;
+    }
+    
+    .project-desc {
+      font-size: 14px;
+    }
+    
+    .project-lang {
+       font-size: 14px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .project-title {
+        font-size: 12px;
+      }
+      
+      .project-desc {
+        font-size: 10px;
+      }
+      
+      .project-lang {
+         font-size: 10px;
+      }
 }

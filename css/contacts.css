@@ -1,11 +1,12 @@
 .socials {
     display: flex;
+    justify-content: space-around;
 }
 
 .social-img {
-    float: right;
-    width: 40%;
-    transition: all 0.5s;
+    width: 50px;
+    height: 50px;
+    transition: transform 0.5s;
 }
 
 .social-img:hover{
@@ -14,4 +15,19 @@
 
 .contacts > .main-title {
     margin-top: 50px;
+}
+
+.contact-text {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .social-img {
+        width: 30px;
+        height: 30px;
+    }
 }
