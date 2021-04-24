@@ -19,7 +19,7 @@
 
 .text {
   display: inline-block;
-  width: 100%;
+  width: 70%;
   line-height: 2;
   font-size: 16px;
   color: var(--main-text);
