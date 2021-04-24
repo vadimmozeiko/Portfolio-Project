@@ -1,9 +1,8 @@
 :root {
-    --main-bg: #32353A;
-    --main-border:#1F2122;
-    --secondary-bg:#46494F;
-    --main-text: #9C9FA4;
-    --secondary-text: #F8F8FA;
-    --hover: #4F90C6;
-
-  }
+  --main-bg: #32353a;
+  --main-border: #1f2122;
+  --secondary-bg: #46494f;
+  --main-text: #9c9fa4;
+  --secondary-text: #f8f8fa;
+  --hover: #4f90c6;
+}

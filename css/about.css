@@ -1,58 +1,52 @@
 .about {
-    margin-bottom: 110px;
+  margin-bottom: 110px;
 }
 
 .about-text {
-    display: inline-block;
-    width: 60%;
-    float: left;
+  width: 60%;
+  float: left;
 }
 
 .photo {
-    display: inline-block;
-    float: right;
-    width: 30%;
+  float: right;
+  width: 30%;
 }
 
 .button-wrapper {
-    display: inline-block;
-    width: 60%;
+  display: inline-block;
+  width: 60%;
 }
 .about-btn {
-    animation: none;
-    background-color: var(--main-bg);
-    color: var(--secondary-text);
-    transition: all 0.5s;
+  animation: none;
+  background-color: var(--main-bg);
+  color: var(--secondary-text);
+  transition: all 0.5s;
 }
 
 .about-btn:hover {
-    background-color: var(--hover);
+  background-color: var(--hover);
 }
 
-
 @media only screen and (max-width: 992px) {
-    .photo {
-        float: none;
-        width: 50%;
-    }
-    .about {
-        text-align: center;
-    }
-    .about-text {
-        display: inline-block;
-        width: 100%;
-        float: none;
-    }
+  .photo {
+    float: none;
+    width: 50%;
   }
+  .about {
+    text-align: center;
+  }
+  .about-text {
+    display: inline-block;
+    width: 100%;
+    float: none;
+  }
+}
 
-  
-  @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+}
 
+@media only screen and (max-width: 576px) {
+  .about-btn {
+    font-size: 10px;
   }
-  
-  @media only screen and (max-width: 576px) {
-    .about-btn {
-     font-size: 10px;
-    }
-  
-  }
+}
