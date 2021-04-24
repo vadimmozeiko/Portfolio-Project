@@ -1,0 +1,16 @@
+.about {
+    margin-bottom: 150px;
+}
+
+.about-text {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+
+
+.photo {
+    display: inline-block;
+    float: right;
+    width: 30%;
+}
