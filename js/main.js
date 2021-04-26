@@ -4,6 +4,7 @@ import { progressBarData } from "./data/progessBarData.js";
 import { ProgressBar } from "./components/ProgressBar.js";
 import { projectData } from "./data/projectData.js";
 import { renderProjects } from "./components/renderProjects.js";
+import { backToTop } from "./components/backToTop.js";
 
 // initialization -----------------------
 
@@ -18,3 +19,6 @@ new ProgressBar(".progress-bar", progressBarData);
 // ********* render projects *********
 
 renderProjects(projectData);
+
+// ********* back to top button *********
+backToTop();

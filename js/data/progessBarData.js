@@ -8,8 +8,12 @@ const progressBarData = [
     value: 55,
   },
   {
-    name: "PHP (Laravel)",
+    name: "Java",
     value: 45,
+  },
+  {
+    name: "PHP (Laravel)",
+    value: 60,
   },
 ];
 

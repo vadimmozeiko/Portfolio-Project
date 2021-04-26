@@ -38,6 +38,45 @@
   opacity: 0.2;
 }
 
+.top-link {
+  height: 40px;
+  width: 35px;
+  background-color: #000;
+  position: fixed;
+  bottom: 50px;
+  right: 25px;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  transform: rotate(90deg);
+  border-radius: 4px;
+  text-decoration: none;
+  z-index: 999;
+}
+
+.hidden {
+  animation-name: hide;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hide {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .top-link {
+      display: none;
+  }
+}
+
 @media only screen and (max-width: 400px) {
   .social-img {
     width: 30px;
