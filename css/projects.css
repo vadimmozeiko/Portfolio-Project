@@ -12,16 +12,13 @@
   padding: 20px;
   width: 30%;
   border: 2px solid transparent;
-  transition: transform 0.5s;
+  transition: all 0.5s;
   cursor: pointer;
 }
 
 .project-box:hover {
   transform: translateY(-4%);
-  animation-name: border;
-  animation-duration: 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+  border: 2px solid var(--hover);
 }
 
 .project-title {
@@ -42,23 +39,6 @@
   width: 80%;
 }
 
-@keyframes border {
-  0% {
-    border-right-color: var(--hover);
-  }
-  25% {
-    border-bottom-color: var(--hover);
-  }
-  50% {
-    border-left-color: var(--hover);
-  }
-  75% {
-    border-top-color: var(--hover);
-  }
-  100% {
-    border: 2px solid var(--hover);
-  }
-}
 
 @media only screen and (max-width: 1200px) {
   .project-title {
