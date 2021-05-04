@@ -5,6 +5,7 @@ import { ProgressBar } from "./components/ProgressBar.js";
 import { projectData } from "./data/projectData.js";
 import { renderProjects } from "./components/renderProjects.js";
 import { backToTop } from "./components/backToTop.js";
+import {mobileMenu} from "./components/mobileMenu.js"
 
 // initialization -----------------------
 
@@ -22,3 +23,7 @@ renderProjects(projectData);
 
 // ********* back to top button *********
 backToTop();
+
+// ********* mobile menu *********
+mobileMenu();
+
