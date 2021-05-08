@@ -2,8 +2,9 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  padding: 40px 0;
+  padding: 60px 0;
   align-items: center;
+  line-height: 0;
 }
 
 .navigation > .list {
@@ -85,7 +86,7 @@
     font-size: 16px;
   }
   .link {
-    font-size: 12px;
+    font-size: 15px;
     padding: 10px 15px;
   }
 }
@@ -99,6 +100,7 @@
     display: inline-block;
     font-size: 20px;
     margin-bottom: 40px;
+    margin-top: 20px;
   }
   .navigation > .list {
     display: flex;
@@ -113,7 +115,7 @@
 
     display: inline-block;
     position: absolute;
-    top: 137px;
+    top: 130px;
     left: 0;
     background-color: #1f2122;
     width: 100%;
@@ -123,8 +125,8 @@
 
   .navigation > .list > li {
     display: block;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .hamburger  {
     display: inline-block;

@@ -7,7 +7,7 @@ function mobileMenu() {
 
   menuButton.addEventListener("click", () => {
     if (menuList.style.maxHeight == "0px") {
-      menuList.style.maxHeight = "200px";
+      menuList.style.maxHeight = "250px";
     } else {
       menuList.style.maxHeight = "0px";
     }

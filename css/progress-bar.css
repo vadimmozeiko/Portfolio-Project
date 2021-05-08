@@ -3,6 +3,7 @@
   width: 60%;
   font-size: 15px;
   color: var(--secondary-text);
+  padding-top: 40px;
 }
 
 .bar-block {
