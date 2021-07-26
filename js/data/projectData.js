@@ -3,7 +3,7 @@ const projectData = {
   items: [
     {
       link: "k",
-      image: ["./../img/obs_1.JPG"],
+      image: ["./img/obs_1.JPG"],
       title: "Online Booking System",
       text: "Some text here",
       category: "PHP / Laravel",
