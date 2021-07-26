@@ -25,12 +25,14 @@ function renderProjects(data) {
   let HTML = "";
 
   for (const dataItem of projectData) {
-    HTML += `<div class="project-box">
+    HTML += `
+    <div class="project-box"><a href="${dataItem.link}">
         <img class="project-img" src="${dataItem.image}" alt="project image">
         <h3 class="project-title">${dataItem.title}</h3>
         <p class="project-desc">${dataItem.text}</p>
         <p class="project-lang">${dataItem.category}</p>
-        </div>`;
+        </a></div>
+        `;
   }
 
   //post validation
